@@ -15,10 +15,11 @@ What should be in this folder:
  -Module containing bulk of statistical analysis, will automatically run Data.py and TimeUseDiaries.py to clean the data if it hasn't already been cleaned. 
  6. Graphs.py
  -Module for making graphs, note that the graphs folder will be empty until this is run. 
- 7. DataFiles.zip
+ 7. DataFiles.zip (TO BE COMPLETED)
+ -The zip file is too big for github, working on finding an alternative home for it
  -All six sweeps of the MCS including documentation and data dictionaries packed into one little .zip file
- 8. Software.pdf
- -Citations and version informations for all software used in the estimation (TO BE COMPLETED)
+ 8. Software.pdf (TO BE COMPLETED)
+ -Citations and version informations for all software used in the estimation 
  9.README.md
  -This thing
  
