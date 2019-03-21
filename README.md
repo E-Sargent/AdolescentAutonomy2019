@@ -13,19 +13,18 @@ What should be in this folder:
  -Because the time use diaries are painfully large and need to be handled differently from other data they get their own data cleaning module. Only needs to be run once at which point the results will be stored as a tud_weekday.pkl 
  5. Analysis.py 
  -Module containing bulk of statistical analysis, will automatically run Data.py and TimeUseDiaries.py to clean the data if it hasn't already been cleaned. 
- 6. Graphs.py
+6. Graphs.py
  -Module for making graphs, note that the graphs folder will be empty until this is run. 
- 7. DataFiles.zip (TO BE COMPLETED)
- -The zip file is too big for github, working on finding an alternative home for it
- -All six sweeps of the MCS including documentation and data dictionaries packed into one little .zip file
- 8. Software.pdf (TO BE COMPLETED)
+7. software.pdf 
  -Citations and version informations for all software used in the estimation 
- 9.README.md
+8.README.md
  -This thing
  
 
 Steps for replication:
-1. Unzip the data files contained in DataFiles.zip into the same directory as the .py files
+1. Acquire the MCS data
+  -Send me an email at eric.s.sargent@protonmail.ch and I'll send you the .zip file
+  -Pick up the files from the UK Data Service https://ukdataservice.ac.uk/
 2. Open Analysis.py 
 3. Uncomment the print(model_fit.summary()) statements for any regressions you'd like to see the results of
 4. Run Analysis.py 
