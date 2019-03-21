@@ -1,4 +1,4 @@
-# adolescent_autonomy_2019
+# Adolescent Autonomy and Ability Development README
 What should be in this folder:
 1. HelperFunctions.py 
 -A module containing a few helpful functions used at various different stages in the estimation
